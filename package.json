@@ -18,6 +18,7 @@
   "author": "George Aidonidis <george.aidonidis@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.1",
     "express": "^4.15.3",
     "mongoose": "^4.11.4"
   },

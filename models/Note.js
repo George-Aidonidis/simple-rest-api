@@ -2,15 +2,15 @@
 
 const Mongoose = require('../db').Mongoose;
 
-const contactSchema = new Mongoose.Schema({
+const noteSchema = new Mongoose.Schema({
   title: {
     type: String,
     required: true
   },
-  lastName: {
+  content: {
     type: String,
     required: true
   }
 });
 
-module.exports = Mongoose.model('Contact', contactSchema, 'contact');
+module.exports = Mongoose.model('Note', noteSchema, 'note');
