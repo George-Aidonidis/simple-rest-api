@@ -1,6 +1,7 @@
 const express = require('express');
 
 const Note = require('./models/Note');
+
 const app = express();
 const port = process.env.PORT || 3000;
 
